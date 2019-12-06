@@ -1,0 +1,297 @@
+FILE_NAME	CATEGORY_CODE	COLUMN_NUMBER	DATA_LABEL	DATA_LABEL_SOURCE	CONTROL_VOCAB_CD	CONCEPT_TYPE
+subjects_data.tsv	Subjects	1	SUBJ_ID
+subjects_data.tsv	Subjects	2	Sex
+subjects_data.tsv	Subjects	3	Age
+subjects_data.tsv	Subjects	4	Personal and contact information+BMI
+subjects_data.tsv	Subjects	5	Personal and contact information+Height [cm]
+subjects_data.tsv	Subjects	6	Personal and contact information+Weight [kg]
+subjects_data.tsv	Subjects	7	Personal and contact information+Country of birth
+subjects_data.tsv	Subjects	8	Personal and contact information+Census region
+subjects_data.tsv	Subjects	9	Personal and contact information+Economic region
+subjects_data.tsv	Subjects	10	Personal and contact information+State
+subjects_data.tsv	Subjects	11	Personal and contact information+Country of residence
+subjects_data.tsv	Subjects	12	General diet information+Diet type
+subjects_data.tsv	Subjects	13	General diet information+Daily multivitamin
+subjects_data.tsv	Subjects	14	General diet information+Probiotic frequency
+subjects_data.tsv	Subjects	15	General diet information+Vitamin B complex, folate, or folic acid frequency
+subjects_data.tsv	Subjects	16	General diet information+Vitamin D supplement frequency
+subjects_data.tsv	Subjects	17	General diet information+Other nutritional or herbal supplements
+subjects_data.tsv	Subjects	18	General diet information+Specialized diet+Exclude dairy
+subjects_data.tsv	Subjects	19	General diet information+Specialized diet+Exclude nightshades
+subjects_data.tsv	Subjects	20	General diet information+Specialized diet+Exclude refined sugars
+subjects_data.tsv	Subjects	21	General diet information+Specialized diet+FODMAP
+subjects_data.tsv	Subjects	22	General diet information+Specialized diet+Halaal
+subjects_data.tsv	Subjects	23	General diet information+Specialized diet+No specialized diet
+subjects_data.tsv	Subjects	24	General diet information+Specialized diet+Kosher
+subjects_data.tsv	Subjects	25	General diet information+Specialized diet+Modified paleo diet
+subjects_data.tsv	Subjects	26	General diet information+Specialized diet+Other restrictions not described here
+subjects_data.tsv	Subjects	27	General diet information+Specialized diet+Paleo diet or primal diet
+subjects_data.tsv	Subjects	28	General diet information+Specialized diet+Raw food diet
+subjects_data.tsv	Subjects	29	General diet information+Specialized diet+Unspecified
+subjects_data.tsv	Subjects	30	General diet information+Specialized diet+Weston Price or other low grain, low processed food
+subjects_data.tsv	Subjects	31	General diet information+Meat or dairy products from animals treated with antibiotics
+subjects_data.tsv	Subjects	32	General diet information+Drinking water source at home
+subjects_data.tsv	Subjects	33	General information+Ethnicity
+subjects_data.tsv	Subjects	34	General information+Last move
+subjects_data.tsv	Subjects	35	General information+Travel outside of the United States in the past ...
+subjects_data.tsv	Subjects	36	General information+Non-family roommates
+subjects_data.tsv	Subjects	37	General information+Roommates in study
+subjects_data.tsv	Subjects	38	General information+Related to or living with other participant in study
+subjects_data.tsv	Subjects	39	General information+Having dog
+subjects_data.tsv	Subjects	40	General information+Having cat
+subjects_data.tsv	Subjects	41	General information+Having other pet at home
+subjects_data.tsv	Subjects	42	General information+Dominant hand
+subjects_data.tsv	Subjects	43	General information+Highest level of education
+subjects_data.tsv	Subjects	44	General lifestyle and hygiene information+Exercise frequency
+subjects_data.tsv	Subjects	45	General lifestyle and hygiene information+Exercise location
+subjects_data.tsv	Subjects	46	General lifestyle and hygiene information+Biting fingernails
+subjects_data.tsv	Subjects	47	General lifestyle and hygiene information+Swimming pool or hot tub frequency
+subjects_data.tsv	Subjects	48	General lifestyle and hygiene information+Smoking cigarettes frequency
+subjects_data.tsv	Subjects	49	General lifestyle and hygiene information+Alcohol consumption
+subjects_data.tsv	Subjects	50	General lifestyle and hygiene information+Alcohol frequency
+subjects_data.tsv	Subjects	51	General lifestyle and hygiene information+Alcohol types+Beer or cider
+subjects_data.tsv	Subjects	52	General lifestyle and hygiene information+Alcohol types+Red wine
+subjects_data.tsv	Subjects	53	General lifestyle and hygiene information+Alcohol types+Sour beers
+subjects_data.tsv	Subjects	54	General lifestyle and hygiene information+Alcohol types+Spirits or hard alcohol
+subjects_data.tsv	Subjects	55	General lifestyle and hygiene information+Alcohol types+Unspecified
+subjects_data.tsv	Subjects	56	General lifestyle and hygiene information+Alcohol types+White wine
+subjects_data.tsv	Subjects	57	General lifestyle and hygiene information+Drinks per session
+subjects_data.tsv	Subjects	58	General lifestyle and hygiene information+Teeth brushing frequency
+subjects_data.tsv	Subjects	59	General lifestyle and hygiene information+Flossing frequency
+subjects_data.tsv	Subjects	60	General lifestyle and hygiene information+Facial cosmetics frequency
+subjects_data.tsv	Subjects	61	General lifestyle and hygiene information+Deodorant or antiperspirant
+subjects_data.tsv	Subjects	62	General lifestyle and hygiene information+Sleep duration (average night)
+subjects_data.tsv	Subjects	63	General lifestyle and hygiene information+Fabric softener for drying clothes
+subjects_data.tsv	Subjects	64	General health information+Bowel movement frequency (average day)
+subjects_data.tsv	Subjects	65	General health information+Bowel movement quality
+subjects_data.tsv	Subjects	66	General health information+Antibiotics in the last ...
+subjects_data.tsv	Subjects	67	General health information+Flu vaccine in the last ...
+subjects_data.tsv	Subjects	68	General health information+Hormonal birth control
+subjects_data.tsv	Subjects	69	General health information+Pregnant
+subjects_data.tsv	Subjects	70	General health information+Weight change (last six months)
+subjects_data.tsv	Subjects	71	General health information+Tonsils removed
+subjects_data.tsv	Subjects	72	General health information+Appendix removed
+subjects_data.tsv	Subjects	73	General health information+Chickenpox
+subjects_data.tsv	Subjects	74	General health information+Prescription medication for facial acne
+subjects_data.tsv	Subjects	75	General health information+Over the counter products for facial acne
+subjects_data.tsv	Subjects	76	General health information+Born via caesarean section
+subjects_data.tsv	Subjects	77	General health information+Fed as infant
+subjects_data.tsv	Subjects	78	General health information+Attention Deficit Disorder (ADD) or Attention Deficit Hyperactivity Disorder (ADHD)
+subjects_data.tsv	Subjects	79	General health information+Alzheimer's disease
+subjects_data.tsv	Subjects	80	General health information+Lung disease
+subjects_data.tsv	Subjects	81	General health information+Autism or Autism Spectrum Disorder (ASD)
+subjects_data.tsv	Subjects	82	General health information+Autoimmune disease
+subjects_data.tsv	Subjects	83	General health information+Fungal overgrowth in the gut
+subjects_data.tsv	Subjects	84	General health information+Clostridium difficile infection
+subjects_data.tsv	Subjects	85	General health information+Coronary artery disease, heart disease, heart attack, or stroke
+subjects_data.tsv	Subjects	86	General health information+Mental health illness
+subjects_data.tsv	Subjects	87	General health information+Mental health illness type+Anorexia nervosa
+subjects_data.tsv	Subjects	88	General health information+Mental health illness type+Bipolar disorder
+subjects_data.tsv	Subjects	89	General health information+Mental health illness type+Bulimia nervosa
+subjects_data.tsv	Subjects	90	General health information+Mental health illness type+Depression
+subjects_data.tsv	Subjects	91	General health information+Mental health illness type+Post-traumatic stress disorder (PTSD)
+subjects_data.tsv	Subjects	92	General health information+Mental health illness type+Schizophrenia
+subjects_data.tsv	Subjects	93	General health information+Mental health illness type+Substance abuse
+subjects_data.tsv	Subjects	94	General health information+Mental health illness type+Unspecified
+subjects_data.tsv	Subjects	95	General health information+Diabetes
+subjects_data.tsv	Subjects	96	General health information+Diabetes type
+subjects_data.tsv	Subjects	97	General health information+Epilepsy or seizure disorder
+subjects_data.tsv	Subjects	98	General health information+Irritable bowel syndrome (IBS)
+subjects_data.tsv	Subjects	99	General health information+Inflammatory bowel disease (IBD)
+subjects_data.tsv	Subjects	100	General health information+IBD diagnosis
+subjects_data.tsv	Subjects	101	General health information+IBD refined diagnosis
+subjects_data.tsv	Subjects	102	General health information+Migraine
+subjects_data.tsv	Subjects	103	General health information+Kidney disease
+subjects_data.tsv	Subjects	104	General health information+Liver disease
+subjects_data.tsv	Subjects	105	General health information+Phenylketonuria (PKU)
+subjects_data.tsv	Subjects	106	General health information+Small intestinal bacterial overgrowth (SIBO)
+subjects_data.tsv	Subjects	107	General health information+Skin condition
+subjects_data.tsv	Subjects	108	General health information+Thyroid disease
+subjects_data.tsv	Subjects	109	General health information+Seasonal allergies
+subjects_data.tsv	Subjects	110	General health information+Non-food allergies+Bee stings
+subjects_data.tsv	Subjects	111	General health information+Non-food allergies+Drug
+subjects_data.tsv	Subjects	112	General health information+Non-food allergies+Pet dander
+subjects_data.tsv	Subjects	113	General health information+Non-food allergies+Poison ivy or poison oak
+subjects_data.tsv	Subjects	114	General health information+Non-food allergies+Sun
+subjects_data.tsv	Subjects	115	General health information+Non-food allergies+Unspecified
+subjects_data.tsv	Subjects	116	General health information+Lactose intolerant
+subjects_data.tsv	Subjects	117	General health information+Gluten intolerant
+subjects_data.tsv	Subjects	118	General health information+Food allergies+No known food allergies
+subjects_data.tsv	Subjects	119	General health information+Food allergies+Other
+subjects_data.tsv	Subjects	120	General health information+Food allergies+Peanuts
+subjects_data.tsv	Subjects	121	General health information+Food allergies+Shellfish
+subjects_data.tsv	Subjects	122	General health information+Food allergies+Tree nuts
+subjects_data.tsv	Subjects	123	General health information+Food allergies+Unspecified
+subjects_data.tsv	Subjects	124	General health information+Vivid or frightening dreams frequency
+subjects_data.tsv	Subjects	125	Detailed dietary information+Breast milk, formula, or Ensure
+subjects_data.tsv	Subjects	126	Detailed dietary information+Meat or eggs frequency
+subjects_data.tsv	Subjects	127	Detailed dietary information+Home cooked meals frequency
+subjects_data.tsv	Subjects	128	Detailed dietary information+Ready-to-eat meals frequency
+subjects_data.tsv	Subjects	129	Detailed dietary information+Restaurant meals frequency
+subjects_data.tsv	Subjects	130	Detailed dietary information+Whole grain frequency (>=2 servings per day)
+subjects_data.tsv	Subjects	131	Detailed dietary information+Fruit frequency (>=2 servings per day)
+subjects_data.tsv	Subjects	132	Detailed dietary information+Vegetables frequency (>=2 servings per day)
+subjects_data.tsv	Subjects	133	Detailed dietary information+Types of plants (average week)
+subjects_data.tsv	Subjects	134	Detailed dietary information+Fermented vegetables or plant products frequency
+subjects_data.tsv	Subjects	135	Detailed dietary information+Milk or cheese frequency (>=2 servings per day)
+subjects_data.tsv	Subjects	136	Detailed dietary information+Milk substitutes frequency
+subjects_data.tsv	Subjects	137	Detailed dietary information+Frozen dessert frequency
+subjects_data.tsv	Subjects	138	Detailed dietary information+Red meat frequency
+subjects_data.tsv	Subjects	139	Detailed dietary information+Higher fat red meat frequency
+subjects_data.tsv	Subjects	140	Detailed dietary information+Chicken or turkey frequency
+subjects_data.tsv	Subjects	141	Detailed dietary information+Seafood frequency
+subjects_data.tsv	Subjects	142	Detailed dietary information+Salted snacks frequency
+subjects_data.tsv	Subjects	143	Detailed dietary information+Sugary sweets frequency
+subjects_data.tsv	Subjects	144	Detailed dietary information+Cooking with olive oil frequency
+subjects_data.tsv	Subjects	145	Detailed dietary information+Whole eggs frequency
+subjects_data.tsv	Subjects	146	Detailed dietary information+Sugar sweetened beverages (>=16 ounces per day)
+subjects_data.tsv	Subjects	147	Detailed dietary information+Diet beverages with artificial sweeteners frequency
+subjects_data.tsv	Subjects	148	Detailed dietary information+Water frequency (>=1L per day)
+excl_subjects_data.tsv	Excluded items	1	SUBJ_ID
+excl_subjects_data.tsv	Excluded items	2	Subjects+Sex
+excl_subjects_data.tsv	Excluded items	3	Subjects+Age
+excl_subjects_data.tsv	Excluded items	4	Subjects+Personal and contact information+BMI
+excl_subjects_data.tsv	Excluded items	5	Subjects+Personal and contact information+Height [cm]
+excl_subjects_data.tsv	Excluded items	6	Subjects+Personal and contact information+Weight [kg]
+excl_subjects_data.tsv	Excluded items	7	Subjects+Personal and contact information+Country of birth
+excl_subjects_data.tsv	Excluded items	8	Subjects+Personal and contact information+Census region
+excl_subjects_data.tsv	Excluded items	9	Subjects+Personal and contact information+Economic region
+excl_subjects_data.tsv	Excluded items	10	Subjects+Personal and contact information+State
+excl_subjects_data.tsv	Excluded items	11	Subjects+Personal and contact information+Country of residence
+excl_subjects_data.tsv	Excluded items	12	Subjects+General diet information+Diet type
+excl_subjects_data.tsv	Excluded items	13	Subjects+General diet information+Daily multivitamin
+excl_subjects_data.tsv	Excluded items	14	Subjects+General diet information+Probiotic frequency
+excl_subjects_data.tsv	Excluded items	15	Subjects+General diet information+Vitamin B complex, folate, or folic acid frequency
+excl_subjects_data.tsv	Excluded items	16	Subjects+General diet information+Vitamin D supplement frequency
+excl_subjects_data.tsv	Excluded items	17	Subjects+General diet information+Other nutritional or herbal supplements
+excl_subjects_data.tsv	Excluded items	18	Subjects+General diet information+Specialized diet+Exclude dairy
+excl_subjects_data.tsv	Excluded items	19	Subjects+General diet information+Specialized diet+Exclude nightshades
+excl_subjects_data.tsv	Excluded items	20	Subjects+General diet information+Specialized diet+Exclude refined sugars
+excl_subjects_data.tsv	Excluded items	21	Subjects+General diet information+Specialized diet+FODMAP
+excl_subjects_data.tsv	Excluded items	22	Subjects+General diet information+Specialized diet+Halaal
+excl_subjects_data.tsv	Excluded items	23	Subjects+General diet information+Specialized diet+No specialized diet
+excl_subjects_data.tsv	Excluded items	24	Subjects+General diet information+Specialized diet+Kosher
+excl_subjects_data.tsv	Excluded items	25	Subjects+General diet information+Specialized diet+Modified paleo diet
+excl_subjects_data.tsv	Excluded items	26	Subjects+General diet information+Specialized diet+Other restrictions not described here
+excl_subjects_data.tsv	Excluded items	27	Subjects+General diet information+Specialized diet+Paleo diet or primal diet
+excl_subjects_data.tsv	Excluded items	28	Subjects+General diet information+Specialized diet+Raw food diet
+excl_subjects_data.tsv	Excluded items	29	Subjects+General diet information+Specialized diet+Unspecified
+excl_subjects_data.tsv	Excluded items	30	Subjects+General diet information+Specialized diet+Weston Price or other low grain, low processed food
+excl_subjects_data.tsv	Excluded items	31	Subjects+General diet information+Meat or dairy products from animals treated with antibiotics
+excl_subjects_data.tsv	Excluded items	32	Subjects+General diet information+Drinking water source at home
+excl_subjects_data.tsv	Excluded items	33	Subjects+General information+Ethnicity
+excl_subjects_data.tsv	Excluded items	34	Subjects+General information+Last move
+excl_subjects_data.tsv	Excluded items	35	Subjects+General information+Travel outside of the United States in the past ...
+excl_subjects_data.tsv	Excluded items	36	Subjects+General information+Non-family roommates
+excl_subjects_data.tsv	Excluded items	37	Subjects+General information+Roommates in study
+excl_subjects_data.tsv	Excluded items	38	Subjects+General information+Related to or living with other participant in study
+excl_subjects_data.tsv	Excluded items	39	Subjects+General information+Having dog
+excl_subjects_data.tsv	Excluded items	40	Subjects+General information+Having cat
+excl_subjects_data.tsv	Excluded items	41	Subjects+General information+Having other pet at home
+excl_subjects_data.tsv	Excluded items	42	Subjects+General information+Dominant hand
+excl_subjects_data.tsv	Excluded items	43	Subjects+General information+Highest level of education
+excl_subjects_data.tsv	Excluded items	44	Subjects+General lifestyle and hygiene information+Exercise frequency
+excl_subjects_data.tsv	Excluded items	45	Subjects+General lifestyle and hygiene information+Exercise location
+excl_subjects_data.tsv	Excluded items	46	Subjects+General lifestyle and hygiene information+Biting fingernails
+excl_subjects_data.tsv	Excluded items	47	Subjects+General lifestyle and hygiene information+Swimming pool or hot tub frequency
+excl_subjects_data.tsv	Excluded items	48	Subjects+General lifestyle and hygiene information+Smoking cigarettes frequency
+excl_subjects_data.tsv	Excluded items	49	Subjects+General lifestyle and hygiene information+Alcohol consumption
+excl_subjects_data.tsv	Excluded items	50	Subjects+General lifestyle and hygiene information+Alcohol frequency
+excl_subjects_data.tsv	Excluded items	51	Subjects+General lifestyle and hygiene information+Alcohol types+Beer or cider
+excl_subjects_data.tsv	Excluded items	52	Subjects+General lifestyle and hygiene information+Alcohol types+Red wine
+excl_subjects_data.tsv	Excluded items	53	Subjects+General lifestyle and hygiene information+Alcohol types+Sour beers
+excl_subjects_data.tsv	Excluded items	54	Subjects+General lifestyle and hygiene information+Alcohol types+Spirits or hard alcohol
+excl_subjects_data.tsv	Excluded items	55	Subjects+General lifestyle and hygiene information+Alcohol types+Unspecified
+excl_subjects_data.tsv	Excluded items	56	Subjects+General lifestyle and hygiene information+Alcohol types+White wine
+excl_subjects_data.tsv	Excluded items	57	Subjects+General lifestyle and hygiene information+Drinks per session
+excl_subjects_data.tsv	Excluded items	58	Subjects+General lifestyle and hygiene information+Teeth brushing frequency
+excl_subjects_data.tsv	Excluded items	59	Subjects+General lifestyle and hygiene information+Flossing frequency
+excl_subjects_data.tsv	Excluded items	60	Subjects+General lifestyle and hygiene information+Facial cosmetics frequency
+excl_subjects_data.tsv	Excluded items	61	Subjects+General lifestyle and hygiene information+Deodorant or antiperspirant
+excl_subjects_data.tsv	Excluded items	62	Subjects+General lifestyle and hygiene information+Sleep duration (average night)
+excl_subjects_data.tsv	Excluded items	63	Subjects+General lifestyle and hygiene information+Fabric softener for drying clothes
+excl_subjects_data.tsv	Excluded items	64	Subjects+General health information+Bowel movement frequency (average day)
+excl_subjects_data.tsv	Excluded items	65	Subjects+General health information+Bowel movement quality
+excl_subjects_data.tsv	Excluded items	66	Subjects+General health information+Antibiotics in the last ...
+excl_subjects_data.tsv	Excluded items	67	Subjects+General health information+Flu vaccine in the last ...
+excl_subjects_data.tsv	Excluded items	68	Subjects+General health information+Hormonal birth control
+excl_subjects_data.tsv	Excluded items	69	Subjects+General health information+Pregnant
+excl_subjects_data.tsv	Excluded items	70	Subjects+General health information+Weight change (last six months)
+excl_subjects_data.tsv	Excluded items	71	Subjects+General health information+Tonsils removed
+excl_subjects_data.tsv	Excluded items	72	Subjects+General health information+Appendix removed
+excl_subjects_data.tsv	Excluded items	73	Subjects+General health information+Chickenpox
+excl_subjects_data.tsv	Excluded items	74	Subjects+General health information+Prescription medication for facial acne
+excl_subjects_data.tsv	Excluded items	75	Subjects+General health information+Over the counter products for facial acne
+excl_subjects_data.tsv	Excluded items	76	Subjects+General health information+Born via caesarean section
+excl_subjects_data.tsv	Excluded items	77	Subjects+General health information+Fed as infant
+excl_subjects_data.tsv	Excluded items	78	Subjects+General health information+Attention Deficit Disorder (ADD) or Attention Deficit Hyperactivity Disorder (ADHD)
+excl_subjects_data.tsv	Excluded items	79	Subjects+General health information+Alzheimer's disease
+excl_subjects_data.tsv	Excluded items	80	Subjects+General health information+Lung disease
+excl_subjects_data.tsv	Excluded items	81	Subjects+General health information+Autism or Autism Spectrum Disorder (ASD)
+excl_subjects_data.tsv	Excluded items	82	Subjects+General health information+Autoimmune disease
+excl_subjects_data.tsv	Excluded items	83	Subjects+General health information+Fungal overgrowth in the gut
+excl_subjects_data.tsv	Excluded items	84	Subjects+General health information+Clostridium difficile infection
+excl_subjects_data.tsv	Excluded items	85	Subjects+General health information+Coronary artery disease, heart disease, heart attack, or stroke
+excl_subjects_data.tsv	Excluded items	86	Subjects+General health information+Mental health illness
+excl_subjects_data.tsv	Excluded items	87	Subjects+General health information+Mental health illness type+Anorexia nervosa
+excl_subjects_data.tsv	Excluded items	88	Subjects+General health information+Mental health illness type+Bipolar disorder
+excl_subjects_data.tsv	Excluded items	89	Subjects+General health information+Mental health illness type+Bulimia nervosa
+excl_subjects_data.tsv	Excluded items	90	Subjects+General health information+Mental health illness type+Depression
+excl_subjects_data.tsv	Excluded items	91	Subjects+General health information+Mental health illness type+Post-traumatic stress disorder (PTSD)
+excl_subjects_data.tsv	Excluded items	92	Subjects+General health information+Mental health illness type+Schizophrenia
+excl_subjects_data.tsv	Excluded items	93	Subjects+General health information+Mental health illness type+Substance abuse
+excl_subjects_data.tsv	Excluded items	94	Subjects+General health information+Mental health illness type+Unspecified
+excl_subjects_data.tsv	Excluded items	95	Subjects+General health information+Diabetes
+excl_subjects_data.tsv	Excluded items	96	Subjects+General health information+Diabetes type
+excl_subjects_data.tsv	Excluded items	97	Subjects+General health information+Epilepsy or seizure disorder
+excl_subjects_data.tsv	Excluded items	98	Subjects+General health information+Irritable bowel syndrome (IBS)
+excl_subjects_data.tsv	Excluded items	99	Subjects+General health information+Inflammatory bowel disease (IBD)
+excl_subjects_data.tsv	Excluded items	100	Subjects+General health information+IBD diagnosis
+excl_subjects_data.tsv	Excluded items	101	Subjects+General health information+IBD refined diagnosis
+excl_subjects_data.tsv	Excluded items	102	Subjects+General health information+Migraine
+excl_subjects_data.tsv	Excluded items	103	Subjects+General health information+Kidney disease
+excl_subjects_data.tsv	Excluded items	104	Subjects+General health information+Liver disease
+excl_subjects_data.tsv	Excluded items	105	Subjects+General health information+Phenylketonuria (PKU)
+excl_subjects_data.tsv	Excluded items	106	Subjects+General health information+Small intestinal bacterial overgrowth (SIBO)
+excl_subjects_data.tsv	Excluded items	107	Subjects+General health information+Skin condition
+excl_subjects_data.tsv	Excluded items	108	Subjects+General health information+Thyroid disease
+excl_subjects_data.tsv	Excluded items	109	Subjects+General health information+Seasonal allergies
+excl_subjects_data.tsv	Excluded items	110	Subjects+General health information+Non-food allergies+Bee stings
+excl_subjects_data.tsv	Excluded items	111	Subjects+General health information+Non-food allergies+Drug
+excl_subjects_data.tsv	Excluded items	112	Subjects+General health information+Non-food allergies+Pet dander
+excl_subjects_data.tsv	Excluded items	113	Subjects+General health information+Non-food allergies+Poison ivy or poison oak
+excl_subjects_data.tsv	Excluded items	114	Subjects+General health information+Non-food allergies+Sun
+excl_subjects_data.tsv	Excluded items	115	Subjects+General health information+Non-food allergies+Unspecified
+excl_subjects_data.tsv	Excluded items	116	Subjects+General health information+Lactose intolerant
+excl_subjects_data.tsv	Excluded items	117	Subjects+General health information+Gluten intolerant
+excl_subjects_data.tsv	Excluded items	118	Subjects+General health information+Food allergies+No known food allergies
+excl_subjects_data.tsv	Excluded items	119	Subjects+General health information+Food allergies+Other
+excl_subjects_data.tsv	Excluded items	120	Subjects+General health information+Food allergies+Peanuts
+excl_subjects_data.tsv	Excluded items	121	Subjects+General health information+Food allergies+Shellfish
+excl_subjects_data.tsv	Excluded items	122	Subjects+General health information+Food allergies+Tree nuts
+excl_subjects_data.tsv	Excluded items	123	Subjects+General health information+Food allergies+Unspecified
+excl_subjects_data.tsv	Excluded items	124	Subjects+General health information+Vivid or frightening dreams frequency
+excl_subjects_data.tsv	Excluded items	125	Subjects+Detailed dietary information+Breast milk, formula, or Ensure
+excl_subjects_data.tsv	Excluded items	126	Subjects+Detailed dietary information+Meat or eggs frequency
+excl_subjects_data.tsv	Excluded items	127	Subjects+Detailed dietary information+Home cooked meals frequency
+excl_subjects_data.tsv	Excluded items	128	Subjects+Detailed dietary information+Ready-to-eat meals frequency
+excl_subjects_data.tsv	Excluded items	129	Subjects+Detailed dietary information+Restaurant meals frequency
+excl_subjects_data.tsv	Excluded items	130	Subjects+Detailed dietary information+Whole grain frequency (>=2 servings per day)
+excl_subjects_data.tsv	Excluded items	131	Subjects+Detailed dietary information+Fruit frequency (>=2 servings per day)
+excl_subjects_data.tsv	Excluded items	132	Subjects+Detailed dietary information+Vegetables frequency (>=2 servings per day)
+excl_subjects_data.tsv	Excluded items	133	Subjects+Detailed dietary information+Types of plants (average week)
+excl_subjects_data.tsv	Excluded items	134	Subjects+Detailed dietary information+Fermented vegetables or plant products frequency
+excl_subjects_data.tsv	Excluded items	135	Subjects+Detailed dietary information+Milk or cheese frequency (>=2 servings per day)
+excl_subjects_data.tsv	Excluded items	136	Subjects+Detailed dietary information+Milk substitutes frequency
+excl_subjects_data.tsv	Excluded items	137	Subjects+Detailed dietary information+Frozen dessert frequency
+excl_subjects_data.tsv	Excluded items	138	Subjects+Detailed dietary information+Red meat frequency
+excl_subjects_data.tsv	Excluded items	139	Subjects+Detailed dietary information+Higher fat red meat frequency
+excl_subjects_data.tsv	Excluded items	140	Subjects+Detailed dietary information+Chicken or turkey frequency
+excl_subjects_data.tsv	Excluded items	141	Subjects+Detailed dietary information+Seafood frequency
+excl_subjects_data.tsv	Excluded items	142	Subjects+Detailed dietary information+Salted snacks frequency
+excl_subjects_data.tsv	Excluded items	143	Subjects+Detailed dietary information+Sugary sweets frequency
+excl_subjects_data.tsv	Excluded items	144	Subjects+Detailed dietary information+Cooking with olive oil frequency
+excl_subjects_data.tsv	Excluded items	145	Subjects+Detailed dietary information+Whole eggs frequency
+excl_subjects_data.tsv	Excluded items	146	Subjects+Detailed dietary information+Sugar sweetened beverages (>=16 ounces per day)
+excl_subjects_data.tsv	Excluded items	147	Subjects+Detailed dietary information+Diet beverages with artificial sweeteners frequency
+excl_subjects_data.tsv	Excluded items	148	Subjects+Detailed dietary information+Water frequency (>=1L per day)
