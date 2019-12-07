@@ -1,5 +1,5 @@
 # Vorher: Datensatz IMMER mit einem Editor angucken, oder mit "head" drüberschauen
-setwd("C:/Users/corny/Dropbox/Universitat/MA/tranSMART-dataquality/agp")
+setwd("C:/Users/corny/Dropbox/Universitat/MA/tranSMART-dataquality/dev/agp")
 
 #Laden der Daten
 dat <- read.delim("clinical/subjects_data.tsv", na.strings="N/A")
