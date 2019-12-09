@@ -2,6 +2,7 @@ setwd("C:/Users/corny/Dropbox/Universitat/MA/tranSMART-dataquality/dev/agp")
 
 #Laden der Daten
 input_data <- read.delim("clinical/subjects_data.tsv", na.strings="N/A")
+input_data_excluded <- read.delim("clinical/excl_subjects_data.tsv", na.strings="N/A")
 #Anschauen der Daten
 # View(input_data)
 
@@ -71,3 +72,14 @@ table(tmf1007$bmi)
 table(tmf1007$bmi)
 table(tmf1007$height_cm)
 table(tmf1007$weight_kg)
+
+#------- Allgemeine Berechnungen
+tmp.describe <- describe(input_data)
+tmp.diagnose <- diagnose(input_data)
+tmp.diagnose.category <- diagnose_category(input_data)
+tmp.diagnose.numerical <- diagnose_numeric(input_data)
+tmp.diagnose.outlier <- diagnose_outlier(input_data)
+diagnose_report(input_data, output_format = "html")
+diagnose_report(input_data_excluded, output_format = "html")
+
+eda_report(input_data, output_format = "pdf")
