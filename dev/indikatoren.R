@@ -82,4 +82,5 @@ tmp.diagnose.outlier <- diagnose_outlier(input_data)
 diagnose_report(input_data, output_format = "html")
 diagnose_report(input_data_excluded, output_format = "html")
 
-eda_report(input_data, output_format = "pdf")
+eda_report(input_data, output_format = "html")
+
