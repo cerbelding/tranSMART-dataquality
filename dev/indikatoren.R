@@ -74,6 +74,7 @@ table(tmf1007$height_cm)
 table(tmf1007$weight_kg)
 
 #------- Allgemeine Berechnungen
+library(dlookr)
 tmp.describe <- describe(input_data)
 tmp.diagnose <- diagnose(input_data)
 tmp.diagnose.category <- diagnose_category(input_data)

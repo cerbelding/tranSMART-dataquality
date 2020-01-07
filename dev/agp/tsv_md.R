@@ -10,9 +10,9 @@ dat <- read.delim("clinical/subjects_data.tsv", na.strings="N/A")
 # Die Spaltenindizes eines Dataframes kommen bei R vor den Zeilen,
 # das Ergebnis ist ein Named Boolean
 isnum <- sapply(dat, is.numeric)
-iscat <- sapply(dat, is.numeric)
 # Numerischer Teildatensatz
 numdat <- dat[,isnum]
+catdat <- dat[,!isnum]
 summary(numdat)
 
 # Schnelle Übersicht: Zentriert auf Mittelwert und normiert auf Standardabwichung
@@ -47,3 +47,4 @@ str(bxp)
 length(wc <- which(lmd > trshld))
 # Welche genau sind es?
 numdat[wc,]
+
