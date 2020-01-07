@@ -29,11 +29,22 @@ zero_NAs <- which(NAs$na_count == 0)
 NAs_only <- NAs[-zero_NAs,]
 rm(zero_NAs)
 
+
 # Variablen ohne jeden Wert
 # entspricht Spalten mit 100% NAs
 
-tmp <- subset(NAs, NAs$na_relation == 1)
-tmf1013 <- (NROW(tmp)/NCOL(input_data))
-tmf1013_names <- rownames(tmp)
+NAs_complete <- subset(NAs, NAs$na_relation == 1)
+NAs_complete_rate <- (NROW(NAs_complete)/NCOL(input_data))
+NAs_complete_names <- rownames(NAs_complete)
 rm(tmp)
 
+# entferne alle Variablen ohne jeden Wert (100% NAs)
+full_NAs <- which(NAs$na_relation == 1)
+NAs_cleaned <- NAs_only[-full_NAs,]
+rm(full_NAs)
+
+# RATE_MISSING
+rate_missing <- sum(NAs_only$na_count) / (NROW(input_data)*NCOL(input_data))
+rate_missing_cleaned <- sum(NAs_cleaned$na_count) / (NROW(input_data)*NCOL(input_data))
+
+## Schritt 2: 
