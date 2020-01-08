@@ -1,4 +1,4 @@
-setwd("C:/Users/corny/Dropbox/Universitat/MA/tranSMART-dataquality/dev/agp")
+setwd("C:/Users/corny/Dropbox/Universitat/MA/tranSMART-dataquality/dev")
 
 ## Schritt 0.1: Laden der Daten
 input_data <- read.delim("clinical/subjects_data.tsv", na.strings="N/A")
@@ -25,10 +25,7 @@ for (i in 1:length(NAs$na_count)) {
 rm(i)
 
 # entferne alle Variablen ohne NAs
-zero_NAs <- which(NAs$na_count == 0)
-NAs_only <- NAs[-zero_NAs,]
-rm(zero_NAs)
-
+NAs_only <- NAs[-(which(NAs$na_count == 0)),]
 
 # Variablen ohne jeden Wert
 # entspricht Spalten mit 100% NAs
@@ -36,15 +33,26 @@ rm(zero_NAs)
 NAs_complete <- subset(NAs, NAs$na_relation == 1)
 NAs_complete_rate <- (NROW(NAs_complete)/NCOL(input_data))
 NAs_complete_names <- rownames(NAs_complete)
-rm(tmp)
 
 # entferne alle Variablen ohne jeden Wert (100% NAs)
-full_NAs <- which(NAs$na_relation == 1)
-NAs_cleaned <- NAs_only[-full_NAs,]
-rm(full_NAs)
+NAs_cleaned <- NAs_only[-(which(NAs$na_relation == 1)),]
 
 # RATE_MISSING
 rate_missing <- sum(NAs_only$na_count) / (NROW(input_data)*NCOL(input_data))
 rate_missing_cleaned <- sum(NAs_cleaned$na_count) / (NROW(input_data)*NCOL(input_data))
 
-## Schritt 2: 
+## Schritt 2: Vollstaendige Erfassung
+# Liste von Variablen mit Anzahl von NAs = 0
+NAs_noNA <- NAs[which(NAs$na_count == 0),]
+
+# RATE_VOLLSTANDIGKEIT
+rate_vollstandigkeit <- NROW(NAs_noNA)/NROW(input_data)
+
+## Schritt 3: Ausreisser
+# Ausreisse fur numerische Daten
+library(dlookr)
+ausreisser <- diagnose_outlier(input_data_numeric)
+#Erkennung durch boxplot.stats Package: Ausreisser = Punkte außerhalb des 1.5-fachen IQR
+
+#Ausreisser visualisieren
+plot_outlier(input_data_numeric)
