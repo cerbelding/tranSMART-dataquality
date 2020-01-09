@@ -49,10 +49,11 @@ NAs_noNA <- NAs[which(NAs$na_count == 0),]
 rate_vollstandigkeit <- NROW(NAs_noNA)/NROW(input_data)
 
 ## Schritt 3: Ausreisser
-# Ausreisse fur numerische Daten
+# Ausreisser fur numerische Daten
 library(dlookr)
 ausreisser <- diagnose_outlier(input_data_numeric)
 #Erkennung durch boxplot.stats Package: Ausreisser = Punkte außerhalb des 1.5-fachen IQR
 
-#Ausreisser visualisieren
+#numerische Ausreisser visualisieren
 plot_outlier(input_data_numeric)
+
