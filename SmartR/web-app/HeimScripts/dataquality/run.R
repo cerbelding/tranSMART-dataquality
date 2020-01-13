@@ -1,11 +1,4 @@
-if (!exists("remoteScriptDir")) {  #  Needed for unit-tests
-  remoteScriptDir <- "web-app/HeimScripts/_core"
-}
-
 library("jsonlite")
-loaded_variables <- fromJSON("./smartR_example/input_SFB1002.json")
-fetch_params <- NULL
-
 
 ##Input-Daten = variable 'loaded_variables'
 main <- function() {
@@ -51,9 +44,8 @@ main <- function() {
   
   colnames(tmp.var2)[1] <- "internalId"
   
-  tmp.affection <- character()
-  tmp.textNodes <- character()
-  for (i in 1:length(tmp.keyList)) {
+  
+    for (i in 1:length(tmp.keyList)) {
     tmp.currentCols <- grep(tmp.keyList[i], colnames(tmp.var2))
     tmp.var2[,tmp.currentCols[1]] <- as.character(tmp.var2[,tmp.currentCols[1]])
     
@@ -66,24 +58,9 @@ main <- function() {
     }
     
     
-    tmp.isCore <- TRUE
-    if (grepl("affectionStatus", colnames(tmp.var2)[tmp.currentCols[1]])) {
-      tmp.affection <- c(tmp.affection, tmp.nameList[i])
-      tmp.isCore <- FALSE
-    }
     
-    if ((grepl("additionalCategoric", colnames(tmp.var2)[tmp.currentCols[1]]) && 
-         tmp.nameList[i] != "Sex") ||
-        grepl("additionalNumeric", colnames(tmp.var2)[tmp.currentCols[1]])) {
-      tmp.textNodes <- c(tmp.textNodes, tmp.nameList[i])
-      tmp.isCore <- FALSE
-    }
-    
-    if (tmp.isCore) {
-      colnames(tmp.var2)[tmp.currentCols[1]] <- gsub(" ", "", tmp.nameList[i])
-    } else {
-      colnames(tmp.var2)[tmp.currentCols[1]] <- tmp.nameList[i]
-    }
+    colnames(tmp.var2)[tmp.currentCols[1]] <- gsub(" ", "", tmp.nameList[i])
   }
-  
 }
+
+#tmp.var2 ist Haupt-Variable (input_data)

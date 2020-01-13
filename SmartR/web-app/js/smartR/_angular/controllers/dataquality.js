@@ -12,8 +12,8 @@ window.smartRApp.controller('DataqualityController',
             running: false,
             loaded: false,
             conceptBoxes: {
-                ped: {concepts: [], valid: false},
-                datapoints: {concepts: [], valid: false}
+                numeric: {concepts: [], valid: false},
+                categoric: {concepts: [], valid: false}
             }
         };
 
