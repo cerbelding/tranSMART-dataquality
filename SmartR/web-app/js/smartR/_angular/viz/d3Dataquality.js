@@ -1,5 +1,4 @@
 //# sourceURL=d3Dataquality.js
-
 'use strict';
 
 window.smartRApp.directive('dataquality', [
@@ -7,7 +6,6 @@ window.smartRApp.directive('dataquality', [
     'rServeService',
     '$rootScope',
     function(smartRUtils, rServeService, $rootScope) {
-
         return {
             restrict: 'E',
             scope: {
@@ -28,9 +26,7 @@ window.smartRApp.directive('dataquality', [
             }
         };
 
-
         function reportDataquality(scope, vizDiv) {
         	document.write("Dataquality Report:");
         }
     }]);
-        

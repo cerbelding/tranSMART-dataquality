@@ -1,9 +1,6 @@
 <script type="text/ng-template" id="dataquality">
-
 <div ng-controller="DataqualityController">
-
     <tab-container>
-
         <workflow-tab tab-name="Fetch Data" disabled="fetch.disabled">
             <concept-box style="display: inline-block;"
                          concept-group="fetch.conceptBoxes.numeric"
@@ -45,9 +42,6 @@
             <br/>
             <dataquality data="runAnalysis.scriptResults"></dataquality>
         </workflow-tab>
-
     </tab-container>
-
 </div>
-
 </script>
