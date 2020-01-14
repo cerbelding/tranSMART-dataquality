@@ -2,8 +2,8 @@
 # Author: Cornelius Knopp
 
 ## Schritt 0.1: Laden der Daten
-input_data <- read.delim("dev/agp/clinical/subjects_data.tsv", na.strings="N/A")
-
+input_data <- read.delim("agp/clinical/subjects_data.tsv", na.strings="N/A")
+ 
 splitted_input <- split_dataset(input_data = input_data)
 input_data_numeric <- splitted_input$input_data_numeric
 input_data_categorical <- splitted_input$input_data_categorical
