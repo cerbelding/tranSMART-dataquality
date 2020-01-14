@@ -3,7 +3,7 @@
 
 ## Schritt 0.1: Laden der Daten
 input_data <- read.delim("agp/clinical/subjects_data.tsv", na.strings="N/A")
- 
+
 splitted_input <- split_dataset(input_data = input_data)
 input_data_numeric <- splitted_input$input_data_numeric
 input_data_categorical <- splitted_input$input_data_categorical
@@ -24,6 +24,7 @@ split_dataset <- function(input_data){
   input_data_categorical <- input_data[,!isnumeric]
   rm(isnumeric) #entfernen d. temporaeren Variable
   return_value <- list("input_data_numeric"=input_data_numeric, "input_data_categorical"=input_data_categorical)
+  return(return_value)
 }
 
 missingvalues <- function(input_data){
@@ -54,7 +55,8 @@ missingvalues <- function(input_data){
   # RATE_MISSING
   rate_missing <- sum(NAs_only$na_count) / (NROW(input_data)*NCOL(input_data))
   rate_missing_cleaned <- sum(NAs_cleaned$na_count) / (NROW(input_data)*(NCOL(input_data)-NROW(NAs_complete)))
-  return_value <- list("rate_missing" = rate_missing, "rate_missing_cleaned" = rate_missing_cleaned, "NAs"=NAs)
+  return_value <- list("rate_missing" = rate_missing, "rate_missing_cleaned" = rate_missing_cleaned, "NAs" = NAs, "NAs_complete_rate" = NAs_complete_rate, "NAs_complete_names" = NAs_complete_names)
+  return(return_value)
 }
 
 completeness <- function(input_data, NAs){
@@ -64,6 +66,7 @@ completeness <- function(input_data, NAs){
   
   # RATE_VOLLSTANDIGKEIT
   rate_vollstandigkeit <- NROW(NAs_noNA)/NROW(input_data)
+  return(rate_vollstandigkeit)
 }
 
 outliers <- function(input_data_numeric){
@@ -71,4 +74,5 @@ outliers <- function(input_data_numeric){
   # nur fuer numerische Daten anwendbar
   library(dlookr)
   ausreisser <- diagnose_outlier(input_data_numeric)
+  return(ausreisser)
 }
