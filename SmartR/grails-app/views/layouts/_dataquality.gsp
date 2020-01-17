@@ -15,7 +15,7 @@
                          type="LD-categorical"
                          min="0"
                          max="-1"
-                         label="(optional) Categorical Variables"
+                         label="Categorical Variables"
                          tooltip="Select categorical variables of interest from the tree and drag them into the box.">
             </concept-box>
             <br/>
