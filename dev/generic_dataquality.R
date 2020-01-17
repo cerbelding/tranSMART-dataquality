@@ -74,5 +74,7 @@ outliers <- function(input_data_numeric){
   # nur fuer numerische Daten anwendbar
   library(dlookr)
   ausreisser <- diagnose_outlier(input_data_numeric)
+  #im Sinne der Einheitlichkeit: Harmonisiserung auf Wertebereich zw. 0 und 1
+  ausreisser$outliers_ratio <- ausreisser$outliers_ratio/100
   return(ausreisser)
 }
