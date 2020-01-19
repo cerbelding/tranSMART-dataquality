@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Data Quality</title>
+</head>
+<body>
+<H2>Data Quality - Dataset Level</H2>
+<div class='dataTable'>
+	<table>
+		<th>Quality Indicator</th>
+		<th>Value</th>
+		<th>Comments</th>
+		<tr>
+			<td>Rate_Missing</td>
+			<td>0.3902856</td>
+			<td>Relation of Missing Values</td>
+		</tr>
+		<tr>
+			<td>Rate_Missing_cleaned</td>
+			<td>0.349554</td>
+			<td>Relation of Missing Values, without Variables with 100% Missings</td>
+		</tr>
+		<tr>
+			<td>Rate_Completeness</td>
+			<td>0.004102015</td>
+			<td>Relation of Variables with 0% Missings
+		</tr>
+	</table>
+</div>
+<br>
+<H2>Data Quality - Variable Level</H2>
+<H3>Outlier Overview</H3>
+<div class='dataTable'>
+	<table>
+		<th>Variable name</th>
+		<th>Outlier counter</th>
+		<th>Outlier ratio</th>
+		<th>Outlier mean</th>
+		<th>Mean incl. Outliers</th>
+		<th>Mean excl. Outliers</th>
+		<tr>
+			<td>subject_id</td>
+			<td>0</td>
+			<td>0.0000000000</td>
+			<td></td>
+			<td>4285.98395</td>
+			<td>4285.98395</td>
+		</tr>
+		<tr>
+			<td>age_years</td>
+			<td>1</td>
+			<td>0.0001783485</td>
+			<td>101.00000</td>
+			<td>46.52256</td>
+			<td>46.51284</td>
+		</tr>
+		<tr>
+			<td>bmi</td>
+			<td>496</td>
+			<td>0.0884608525</td>
+			<td>28708.84915	</td>
+			<td>2560.85846</td>
+			<td>23.31133</td>
+		</tr>
+		<tr>
+			<td>height_cm</td>
+			<td>570</td>
+			<td>0.1016586410</td>
+			<td>150.15088</td>
+			<td>168.85928</td>
+			<td>170.97637</td>
+		</tr>
+		<tr>
+			<td>weight_kg</td>
+			<td>354</td>
+			<td>0.0631353665</td>
+			<td>74.02825</td>
+			<td>69.76922</td>
+			<td>69.48220</td>
+		</tr>
+	</table>
+</div>
+<br>
+<H3>Missing-Values Overview</H3>
+<div class='dataTable'>
+	<table>
+		<th>Variable name</th>
+		<th>NA counter</th>
+		<th>NA relation</th>
+ <tr><td>subject_id</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>sex</td><td>222</td><td>0.039593365</td></tr>
+ <tr><td>age_years</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>bmi</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>height_cm</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>weight_kg</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>country_of_birth</td><td>22</td><td>0.003923667</td></tr>
+ <tr><td>census_region</td><td>1053</td><td>0.187800963</td></tr>
+ <tr><td>economic_region</td><td>1053</td><td>0.187800963</td></tr>
+ <tr><td>state</td><td>791</td><td>0.141073658</td></tr>
+ <tr><td>country_residence</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>diet_type</td><td>59</td><td>0.010522561</td></tr>
+ <tr><td>multivitamin</td><td>88</td><td>0.015694667</td></tr>
+ <tr><td>probiotic_frequency</td><td>2990</td><td>0.533261994</td></tr>
+ <tr><td>vitamin_b_supplement_frequency</td><td>3005</td><td>0.535937221</td></tr>
+ <tr><td>vitamin_d_supplement_frequency</td><td>3010</td><td>0.536828964</td></tr>
+ <tr><td>other_supplement_frequency</td><td>93</td><td>0.016586410</td></tr>
+ <tr><td>specialized_diet_exclude_dairy</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_exclude_nightshades</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_exclude_refined_sugars</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_fodmap</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_halaal</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_i_do_not_eat_a_specialized_diet</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_kosher</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_modified_paleo_diet</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_other_restrictions_not_described_here</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_paleodiet_or_primal_diet</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_raw_food_diet</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_unspecified</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>specialized_diet_westenprice_or_other_lowgrain_low_processed_fo</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>consume_animal_products_abx</td><td>2979</td><td>0.531300161</td></tr>
+ <tr><td>drinking_water_source</td><td>38</td><td>0.006777243</td></tr>
+ <tr><td>race</td><td>26</td><td>0.004637061</td></tr>
+ <tr><td>last_move</td><td>2968</td><td>0.529338327</td></tr>
+ <tr><td>last_travel</td><td>140</td><td>0.024968789</td></tr>
+ <tr><td>roommates</td><td>4959</td><td>0.884430177</td></tr>
+ <tr><td>roommates_in_study</td><td>3237</td><td>0.577314072</td></tr>
+ <tr><td>livingwith</td><td>89</td><td>0.015873016</td></tr>
+ <tr><td>dog</td><td>83</td><td>0.014802925</td></tr>
+ <tr><td>cat</td><td>128</td><td>0.022828607</td></tr>
+ <tr><td>pets_other</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>dominant_hand</td><td>120</td><td>0.021401819</td></tr>
+ <tr><td>level_of_education</td><td>3060</td><td>0.545746388</td></tr>
+ <tr><td>exercise_frequency</td><td>48</td><td>0.008560728</td></tr>
+ <tr><td>exercise_location</td><td>191</td><td>0.034064562</td></tr>
+ <tr><td>nail_biter</td><td>158</td><td>0.028179062</td></tr>
+ <tr><td>pool_frequency</td><td>50</td><td>0.008917425</td></tr>
+ <tr><td>smoking_frequency</td><td>46</td><td>0.008204031</td></tr>
+ <tr><td>alcohol_consumption</td><td>49</td><td>0.008739076</td></tr>
+ <tr><td>alcohol_frequency</td><td>49</td><td>0.008739076</td></tr>
+ <tr><td>alcohol_types_beercider</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>alcohol_types_red_wine</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>alcohol_types_sour_beers</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>alcohol_types_spiritshard_alcohol</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>alcohol_types_unspecified</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>alcohol_types_white_wine</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>drinks_per_session</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>teethbrushing_frequency</td><td>58</td><td>0.010344213</td></tr>
+ <tr><td>flossing_frequency</td><td>40</td><td>0.007133940</td></tr>
+ <tr><td>cosmetics_frequency</td><td>55</td><td>0.009809167</td></tr>
+ <tr><td>deodorant_use</td><td>56</td><td>0.009987516</td></tr>
+ <tr><td>sleep_duration</td><td>34</td><td>0.006063849</td></tr>
+ <tr><td>softener</td><td>157</td><td>0.028000713</td></tr>
+ <tr><td>bowel_movement_frequency</td><td>3021</td><td>0.538790797</td></tr>
+ <tr><td>bowel_movement_quality</td><td>3033</td><td>0.540930979</td></tr>
+ <tr><td>antibiotic_history</td><td>71</td><td>0.012662743</td></tr>
+ <tr><td>flu_vaccine_date</td><td>101</td><td>0.018013198</td></tr>
+ <tr><td>contraceptive</td><td>1638</td><td>0.292134831</td></tr>
+ <tr><td>pregnant</td><td>2159</td><td>0.385054396</td></tr>
+ <tr><td>weight_change</td><td>91</td><td>0.016229713</td></tr>
+ <tr><td>tonsils_removed</td><td>126</td><td>0.022471910</td></tr>
+ <tr><td>appendix_removed</td><td>114</td><td>0.020331728</td></tr>
+ <tr><td>chickenpox</td><td>93</td><td>0.016586410</td></tr>
+ <tr><td>acne_medication</td><td>113</td><td>0.020153380</td></tr>
+ <tr><td>acne_medication_otc</td><td>91</td><td>0.016229713</td></tr>
+ <tr><td>csection</td><td>78</td><td>0.013911182</td></tr>
+ <tr><td>fed_as_infant</td><td>2986</td><td>0.532548600</td></tr>
+ <tr><td>add_adhd</td><td>3008</td><td>0.536472267</td></tr>
+ <tr><td>alzheimers</td><td>2969</td><td>0.529516676</td></tr>
+ <tr><td>lung_disease</td><td>387</td><td>0.069020867</td></tr>
+ <tr><td>asd</td><td>2984</td><td>0.532191903</td></tr>
+ <tr><td>autoimmune</td><td>3010</td><td>0.536828964</td></tr>
+ <tr><td>fungal_overgrowth</td><td>3052</td><td>0.544319600</td></tr>
+ <tr><td>cdiff</td><td>3028</td><td>0.540039237</td></tr>
+ <tr><td>cardiovascular_disease</td><td>2977</td><td>0.530943464</td></tr>
+ <tr><td>mental_illness</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_anorexia_nervosa</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_bipolar_disorder</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_bulimia_nervosa</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_depression</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_ptsd_posttraumatic_stress_disorder</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_schizophrenia</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_substance_abuse</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>mental_illness_type_unspecified</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>diabetes</td><td>165</td><td>0.029427501</td></tr>
+ <tr><td>diabetes_type</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>epilepsy_or_seizure_disorder</td><td>2984</td><td>0.532191903</td></tr>
+ <tr><td>ibs</td><td>3026</td><td>0.539682540</td></tr>
+ <tr><td>ibd</td><td>329</td><td>0.058676654</td></tr>
+ <tr><td>ibd_diagnosis</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>ibd_diagnosis_refined</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>migraine</td><td>467</td><td>0.083288746</td></tr>
+ <tr><td>kidney_disease</td><td>2991</td><td>0.533440342</td></tr>
+ <tr><td>liver_disease</td><td>2996</td><td>0.534332085</td></tr>
+ <tr><td>pku</td><td>149</td><td>0.026573925</td></tr>
+ <tr><td>sibo</td><td>3079</td><td>0.549135010</td></tr>
+ <tr><td>skin_condition</td><td>618</td><td>0.110219369</td></tr>
+ <tr><td>thyroid</td><td>2996</td><td>0.534332085</td></tr>
+ <tr><td>seasonal_allergies</td><td>171</td><td>0.030497592</td></tr>
+ <tr><td>non_food_allergies_beestings</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>non_food_allergies_drug_eg_penicillin</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>non_food_allergies_pet_dander</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>non_food_allergies_poison_ivyoak</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>non_food_allergies_sun</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>non_food_allergies_unspecified</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>lactose</td><td>143</td><td>0.025503834</td></tr>
+ <tr><td>gluten</td><td>798</td><td>0.142322097</td></tr>
+ <tr><td>allergic_to_i_have_no_food_allergies_that_i_know_of</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>allergic_to_other</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>allergic_to_peanuts</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>allergic_to_shellfish</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>allergic_to_tree_nuts</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>allergic_to_unspecified</td><td>0</td><td>0.000000000</td></tr>
+ <tr><td>vivid_dreams</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>breastmilk_formula_ensure</td><td>3107</td><td>0.554128768</td></tr>
+ <tr><td>meat_eggs_frequency</td><td>2987</td><td>0.532726948</td></tr>
+ <tr><td>homecooked_meals_frequency</td><td>2977</td><td>0.530943464</td></tr>
+ <tr><td>ready_to_eat_meals_frequency</td><td>2977</td><td>0.530943464</td></tr>
+ <tr><td>prepared_meals_frequency</td><td>2974</td><td>0.530408418</td></tr>
+ <tr><td>whole_grain_frequency</td><td>2989</td><td>0.533083645</td></tr>
+ <tr><td>fruit_frequency</td><td>2995</td><td>0.534153736</td></tr>
+ <tr><td>vegetable_frequency</td><td>2993</td><td>0.533797039</td></tr>
+ <tr><td>types_of_plants</td><td>2584</td><td>0.460852506</td></tr>
+ <tr><td>fermented_plant_frequency</td><td>3058</td><td>0.545389691</td></tr>
+ <tr><td>milk_cheese_frequency</td><td>2984</td><td>0.532191903</td></tr>
+ <tr><td>milk_substitute_frequency</td><td>2984</td><td>0.532191903</td></tr>
+ <tr><td>frozen_dessert_frequency</td><td>2976</td><td>0.530765115</td></tr>
+ <tr><td>red_meat_frequency</td><td>2992</td><td>0.533618691</td></tr>
+ <tr><td>high_fat_red_meat_frequency</td><td>2993</td><td>0.533797039</td></tr>
+ <tr><td>poultry_frequency</td><td>2969</td><td>0.529516676</td></tr>
+ <tr><td>seafood_frequency</td><td>2979</td><td>0.531300161</td></tr>
+ <tr><td>salted_snacks_frequency</td><td>2974</td><td>0.530408418</td></tr>
+ <tr><td>sugary_sweets_frequency</td><td>2968</td><td>0.529338327</td></tr>
+ <tr><td>olive_oil</td><td>2990</td><td>0.533261994</td></tr>
+ <tr><td>whole_eggs</td><td>2968</td><td>0.529338327</td></tr>
+ <tr><td>sugar_sweetened_drink_frequency</td><td>2995</td><td>0.534153736</td></tr>
+ <tr><td>artificial_sweeteners</td><td>5607</td><td>1.000.000.000</td></tr>
+ <tr><td>one_liter_of_water_a_day_frequency</td><td>3004</td><td>0.535758873</td></tr>
+	</table>
+</div>	
+        	
+</body>
+</html>
