@@ -74,5 +74,8 @@ modules = {
         // Pedigree
         resource url: [plugin: 'smart-r', dir: 'js/smartR/_angular/controllers', file: 'pedigree.js']
         resource url: [plugin: 'smart-r', dir: 'js/smartR/_angular/viz', file: 'd3Pedigree.js']
+        // Dataquality
+        resource url: [plugin: 'smart-r', dir: 'js/smartR/_angular/controllers', file: 'dataquality.js']
+        resource url: [plugin: 'smart-r', dir: 'js/smartR/_angular/viz', file: 'd3Dataquality.js']
     }
 }
