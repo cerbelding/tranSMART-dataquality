@@ -122,6 +122,9 @@ missingvalues <- function(input_data){
   # RATE_MISSING
   rate_missing <- sum(NAs_only$na_count) / (NROW(input_data)*NCOL(input_data))
   rate_missing_cleaned <- sum(NAs_cleaned$na_count) / (NROW(input_data)*(NCOL(input_data)-NROW(NAs_complete)))
+  
+  NAs <- cbind(row.names(NAs), NAs)
+  colnames(NAs)[1] <- "variables"
   return_value <- list("rate_missing" = rate_missing, "rate_missing_cleaned" = rate_missing_cleaned, "NAs" = NAs, "NAs_complete_rate" = NAs_complete_rate, "NAs_complete_names" = NAs_complete_names)
   return(return_value)
 }
