@@ -1,3 +1,0 @@
-DATA_FILE=metagenomic_data.tsv
-DATA_TYPE=R
-MAP_FILENAME=mappings.tsv
